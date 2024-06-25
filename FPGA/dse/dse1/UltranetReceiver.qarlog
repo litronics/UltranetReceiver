@@ -1,0 +1,41 @@
+Quartus Prime Archive log --	C:/_Development/UltranetReceiver/FPGA/dse/dse1/UltranetReceiver.qarlog
+
+Archive:	C:/_Development/UltranetReceiver/FPGA/dse/dse1/UltranetReceiver.qar
+Date:		Tue Jun 18 11:30:18 2024
+Quartus Prime		23.1std.1 Build 993 05/14/2024 SC Lite Edition
+
+	=========== Files Selected: ===========
+C:/_Development/UltranetReceiver/FPGA/RS232_Decoder.vhdl
+C:/_Development/UltranetReceiver/FPGA/RS232_Interface.vhd
+C:/_Development/UltranetReceiver/FPGA/UltranetReceiver.bdf
+C:/_Development/UltranetReceiver/FPGA/UltranetReceiver.dse
+C:/_Development/UltranetReceiver/FPGA/UltranetReceiver.out.sdc
+C:/_Development/UltranetReceiver/FPGA/UltranetReceiver.qpf
+C:/_Development/UltranetReceiver/FPGA/UltranetReceiver.qsf
+C:/_Development/UltranetReceiver/FPGA/UltranetReceiver.sdc
+C:/_Development/UltranetReceiver/FPGA/aes3rx.vhd
+C:/_Development/UltranetReceiver/FPGA/audio_sum.vhd
+C:/_Development/UltranetReceiver/FPGA/dac_pdm.vhd
+C:/_Development/UltranetReceiver/FPGA/division.vhd
+C:/_Development/UltranetReceiver/FPGA/i2s_bclk.vhd
+C:/_Development/UltranetReceiver/FPGA/i2s_lrclk.vhd
+C:/_Development/UltranetReceiver/FPGA/i2s_mclk.vhd
+C:/_Development/UltranetReceiver/FPGA/i2s_tx.vhd
+C:/_Development/UltranetReceiver/FPGA/i2s_ultranet_rx.vhd
+C:/_Development/UltranetReceiver/FPGA/multiplication.vhd
+C:/_Development/UltranetReceiver/FPGA/pll_1.vhd
+C:/_Development/UltranetReceiver/FPGA/pll_2.bsf
+C:/_Development/UltranetReceiver/FPGA/pll_2.cmp
+C:/_Development/UltranetReceiver/FPGA/pll_2.ppf
+C:/_Development/UltranetReceiver/FPGA/pll_2.qip
+C:/_Development/UltranetReceiver/FPGA/pll_2.vhd
+C:/_Development/UltranetReceiver/FPGA/spdif_transmitter.vhd
+C:/_Development/UltranetReceiver/FPGA/uart_tx_clk.vhd
+C:/_Development/UltranetReceiver/FPGA/ultranet_demux.vhd
+C:/_Development/UltranetReceiver/FPGA/volume_ctrl.vhd
+C:/_Development/UltranetReceiver/FPGA/volume_ctrl_stereo.vhd
+c:/intelfpga_lite/23.1std/quartus/bin64/assignment_defaults.qdf
+	======= Total: 30 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

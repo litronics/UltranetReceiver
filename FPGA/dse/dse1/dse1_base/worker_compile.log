@@ -1,0 +1,538 @@
+Info: *******************************************************************
+Info: Running Quartus Prime Shell
+Info: Command: quartus_sh --flow compile UltranetReceiver.qsf
+Info: Quartus(args): compile UltranetReceiver.qsf
+Info: Project Name = C:/_Development/UltranetReceiver/FPGA/dse/dse1/dse1_base/UltranetReceiver
+Info: Revision Name = UltranetReceiver
+{"object_type": "report_status", "percent" : 0}
+Info: *******************************************************************
+Info: Running Quartus Prime Signal Tap
+Info: Command: quartus_stp UltranetReceiver -c UltranetReceiver
+Info: Quartus Prime Signal Tap was successful. 0 errors, 0 warnings
+{"object_type": "report_status", "percent" : 20}
+{"object_type": "report_status", "percent" : 20}
+{"object_type": "report_status", "percent" : 20}
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+Info: Command: quartus_map --read_settings_files=off --write_settings_files=off UltranetReceiver -c UltranetReceiver
+Info: Aggressive Performance optimization mode selected -- timing performance will be prioritized at the potential cost of increased logic area and compilation time
+{"object_type": "refresh_report"}
+Warning: Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info: Parallel compilation is enabled and will use 14 of the 14 processors detected
+Info: Found 2 design units, including 1 entities, in source file division.vhd
+Info: Found 2 design units, including 1 entities, in source file multiplication.vhd
+Info: Found 2 design units, including 1 entities, in source file uart_tx_clk.vhd
+Info: Found 2 design units, including 1 entities, in source file i2s_ultranet_rx.vhd
+Info: Found 2 design units, including 1 entities, in source file spdif_transmitter.vhd
+Info: Found 2 design units, including 1 entities, in source file i2s_tx.vhd
+Info: Found 2 design units, including 1 entities, in source file i2s_lrclk.vhd
+Info: Found 2 design units, including 1 entities, in source file aes3rx.vhd
+Info: Found 2 design units, including 1 entities, in source file pll_1.vhd
+Info: Found 2 design units, including 1 entities, in source file rs232_interface.vhd
+Info: Found 2 design units, including 1 entities, in source file rs232_decoder.vhdl
+Info: Found 1 design units, including 1 entities, in source file ultranetreceiver.bdf
+Info: Found 2 design units, including 1 entities, in source file i2s_bclk.vhd
+Info: Found 2 design units, including 1 entities, in source file i2s_mclk.vhd
+Info: Found 2 design units, including 1 entities, in source file ultranet_demux.vhd
+Info: Found 2 design units, including 1 entities, in source file pll_2.vhd
+{"object_type": "report_status", "percent" : 21}
+{"object_type": "report_status", "percent" : 22}
+{"object_type": "report_status", "percent" : 22}
+Info: Elaborating entity "UltranetReceiver" for the top level hierarchy
+Warning: Pin "bMKR_D15" is missing source
+Warning: Pin "bMKR_D16" is missing source
+Warning: Pin "bMKR_D17" is missing source
+Warning: Pin "bMKR_D18" is missing source
+Warning: Pin "bMKR_D19" is missing source
+Warning: Pin "bMKR_D20" is missing source
+Info: Elaborating entity "spdif_transmitter" for hierarchy "spdif_transmitter:inst5"
+Warning: VHDL Signal Declaration warning at spdif_transmitter.vhd(30): used explicit default value for signal "channel_status" because signal was never assigned a value
+Info: Elaborating entity "pll_2" for hierarchy "pll_2:inst6"
+Info: Elaborating entity "altpll" for hierarchy "pll_2:inst6|altpll:altpll_component"
+Info: Elaborated megafunction instantiation "pll_2:inst6|altpll:altpll_component"
+Info: Instantiated megafunction "pll_2:inst6|altpll:altpll_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/pll_2_altpll.v
+Info: Elaborating entity "pll_2_altpll" for hierarchy "pll_2:inst6|altpll:altpll_component|pll_2_altpll:auto_generated"
+Info: Elaborating entity "pll_1" for hierarchy "pll_1:inst1"
+Info: Elaborating entity "altpll" for hierarchy "pll_1:inst1|altpll:altpll_component"
+Info: Elaborated megafunction instantiation "pll_1:inst1|altpll:altpll_component"
+Info: Instantiated megafunction "pll_1:inst1|altpll:altpll_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/pll_1_altpll.v
+Info: Elaborating entity "pll_1_altpll" for hierarchy "pll_1:inst1|altpll:altpll_component|pll_1_altpll:auto_generated"
+Warning: Using design file volume_ctrl.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Info: Elaborating entity "volume_ctrl" for hierarchy "volume_ctrl:inst34"
+Warning: Using design file audio_sum.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Info: Elaborating entity "audio_sum" for hierarchy "audio_sum:inst32"
+Warning: Using design file volume_ctrl_stereo.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Info: Elaborating entity "volume_ctrl_stereo" for hierarchy "volume_ctrl_stereo:inst25"
+Info: Elaborating entity "ultranet_demux" for hierarchy "ultranet_demux:inst9"
+Info: Elaborating entity "i2s_ultranet_rx" for hierarchy "i2s_ultranet_rx:inst8"
+Info: Elaborating entity "aes3rx" for hierarchy "aes3rx:inst7"
+Info: Elaborating entity "RS232_Decoder" for hierarchy "RS232_Decoder:inst3"
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(127): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(127): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(132): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(132): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(137): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(137): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(142): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(142): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(147): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(147): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(152): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(152): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(157): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(157): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(162): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(162): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(167): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(167): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(172): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(172): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(177): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(177): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(182): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(182): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(187): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(187): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(192): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(192): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(197): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(197): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(202): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(202): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(207): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(207): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(213): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(213): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(218): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(218): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(223): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(223): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(228): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(228): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(233): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(233): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(238): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(238): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(243): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(243): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(248): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(248): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(253): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(253): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(258): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(258): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(263): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(263): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(268): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(268): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(273): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(273): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(278): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(278): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(283): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(283): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(288): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(288): ignored assignment of value to null range
+Warning: VHDL Subtype or Type Declaration warning at RS232_Decoder.vhdl(293): subtype or type has null range
+Warning: VHDL warning at RS232_Decoder.vhdl(293): ignored assignment of value to null range
+Info: Elaborating entity "RS232_Interface" for hierarchy "RS232_Interface:inst2"
+Info: Elaborating entity "uart_tx_clk" for hierarchy "uart_tx_clk:inst10"
+Info: Elaborating entity "LPM_CONSTANT" for hierarchy "LPM_CONSTANT:fpga_version"
+Info: Elaborated megafunction instantiation "LPM_CONSTANT:fpga_version"
+Info: Instantiated megafunction "LPM_CONSTANT:fpga_version" with the following parameter:
+Info: Elaborating entity "i2s_mclk" for hierarchy "i2s_mclk:inst16"
+Info: Elaborating entity "i2s_lrclk" for hierarchy "i2s_lrclk:inst13"
+Info: Elaborating entity "i2s_bclk" for hierarchy "i2s_bclk:inst15"
+Info: Elaborating entity "i2s_tx" for hierarchy "i2s_tx:inst12"
+Warning: Using design file dac_pdm.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Info: Elaborating entity "dac_pdm" for hierarchy "dac_pdm:inst36"
+{"object_type": "report_status", "percent" : 27}
+{"object_type": "report_status", "percent" : 28}
+{"object_type": "report_status", "percent" : 29}
+{"object_type": "report_status", "percent" : 28}
+{"object_type": "report_status", "percent" : 20}
+{"object_type": "report_status", "percent" : 23}
+{"object_type": "report_status", "percent" : 25}
+{"object_type": "report_status", "percent" : 27}
+{"object_type": "report_status", "percent" : 29}
+Info: Inferred 20 megafunctions from design logic
+Info: Elaborated megafunction instantiation "volume_ctrl:inst34|lpm_mult:Mult0"
+Info: Instantiated megafunction "volume_ctrl:inst34|lpm_mult:Mult0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/mult_16t.tdf
+{"object_type": "report_status", "percent" : 27}
+{"object_type": "report_status", "percent" : 28}
+{"object_type": "report_status", "percent" : 28}
+Info: Converted 24 DSP block slices
+Info: Elaborated megafunction instantiation "volume_ctrl:inst34|lpm_mult:Mult0|mult_16t:auto_generated|alt_mac_mult:mac_mult7"
+Info: Instantiated megafunction "volume_ctrl:inst34|lpm_mult:Mult0|mult_16t:auto_generated|alt_mac_mult:mac_mult7" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/mac_mult_a6h1.tdf
+Info: Found 1 design units, including 1 entities, in source file db/mult_4do.tdf
+Info: Elaborated megafunction instantiation "volume_ctrl:inst34|lpm_mult:Mult0|mult_16t:auto_generated|alt_mac_out:mac_out8"
+Info: Instantiated megafunction "volume_ctrl:inst34|lpm_mult:Mult0|mult_16t:auto_generated|alt_mac_out:mac_out8" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/mac_out_fr82.tdf
+Info: Elaborated megafunction instantiation "volume_ctrl:inst34|lpm_mult:Mult0|mult_16t:auto_generated|alt_mac_mult:mac_mult3"
+Info: Instantiated megafunction "volume_ctrl:inst34|lpm_mult:Mult0|mult_16t:auto_generated|alt_mac_mult:mac_mult3" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/mac_mult_m2h1.tdf
+Info: Found 1 design units, including 1 entities, in source file db/mult_seo.tdf
+Info: Elaborated megafunction instantiation "volume_ctrl:inst34|lpm_mult:Mult0|mult_16t:auto_generated|alt_mac_out:mac_out4"
+Info: Instantiated megafunction "volume_ctrl:inst34|lpm_mult:Mult0|mult_16t:auto_generated|alt_mac_out:mac_out4" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/mac_out_lr82.tdf
+Info: Elaborated megafunction instantiation "volume_ctrl:inst34|lpm_mult:Mult0|mult_16t:auto_generated|alt_mac_mult:mac_mult5"
+Info: Instantiated megafunction "volume_ctrl:inst34|lpm_mult:Mult0|mult_16t:auto_generated|alt_mac_mult:mac_mult5" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/mac_mult_n2h1.tdf
+Info: Found 1 design units, including 1 entities, in source file db/mult_teo.tdf
+{"object_type": "report_status", "percent" : 27}
+{"object_type": "report_status", "percent" : 28}
+{"object_type": "report_status", "percent" : 28}
+{"object_type": "report_status", "percent" : 29}
+{"object_type": "report_status", "percent" : 32}
+{"object_type": "report_status", "percent" : 33}
+Info: Ignored 5084 buffer(s)
+{"object_type": "report_status", "percent" : 33}
+{"object_type": "report_status", "percent" : 33}
+{"object_type": "report_status", "percent" : 33}
+{"object_type": "report_status", "percent" : 33}
+{"object_type": "report_status", "percent" : 34}
+{"object_type": "report_status", "percent" : 34}
+{"object_type": "report_status", "percent" : 34}
+{"object_type": "report_status", "percent" : 34}
+{"object_type": "report_status", "percent" : 34}
+{"object_type": "report_status", "percent" : 35}
+{"object_type": "report_status", "percent" : 35}
+{"object_type": "report_status", "percent" : 35}
+{"object_type": "report_status", "percent" : 35}
+{"object_type": "report_status", "percent" : 35}
+{"object_type": "report_status", "percent" : 36}
+Warning: Output pins are stuck at VCC or GND
+Info: Timing-Driven Synthesis is running
+{"object_type": "report_status", "percent" : 36}
+{"object_type": "report_status", "percent" : 38}
+{"object_type": "report_status", "percent" : 38}
+Info: 350 registers lost all their fanouts during netlist optimizations.
+Warning: PLL "pll_1:inst1|altpll:altpll_component|pll_1_altpll:auto_generated|pll1" has parameters clk1_multiply_by and clk1_divide_by specified but port CLK[1] is not connected
+Info: Starting physical synthesis optimizations for speed
+{"object_type": "report_status", "percent" : 39}
+Info: Reading SDC File: 'UltranetReceiver.sdc'
+Warning: Ignored filter at UltranetReceiver.sdc(16): inst1|altpll_component|auto_generated|pll1|clk[1] could not be matched with a pin
+Critical Warning: Ignored create_generated_clock at UltranetReceiver.sdc(16): Argument <targets> is an empty collection
+Warning: Ignored filter at UltranetReceiver.sdc(21): inst6|altpll_component|auto_generated|pll2|inclk[0] could not be matched with a pin
+Warning: Ignored filter at UltranetReceiver.sdc(21): inst6|altpll_component|auto_generated|pll2|clk[0] could not be matched with a pin
+Critical Warning: Ignored create_generated_clock at UltranetReceiver.sdc(21): Argument <targets> is an empty collection
+Warning: Ignored create_generated_clock at UltranetReceiver.sdc(21): Argument -source is an empty collection
+Info: Clock uncertainty is not calculated until you update the timing netlist.
+Info: The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Warning: PLL cross checking found inconsistent PLL clock settings:
+Info: Detected timing requirements -- optimizing circuit to achieve only the specified requirements
+Info: Found 4 clocks
+Info: Starting physical synthesis algorithm register retiming
+Info: Physical synthesis algorithm register retiming complete: estimated slack improvement of 1996 ps
+Info: Starting physical synthesis algorithm combinational resynthesis using boolean division
+Info: Physical synthesis algorithm combinational resynthesis using boolean division complete: estimated slack improvement of 109 ps
+Info: Physical synthesis optimizations for speed complete: elapsed time is 00:00:03
+Info: Generated JSON formatted report files in C:/_Development/UltranetReceiver/FPGA/dse/dse1/dse1_base/db/UltranetReceiver.map.json_files/
+Info: Generated JSON formatted report files in C:/_Development/UltranetReceiver/FPGA/dse/dse1/dse1_base/db/UltranetReceiver.flow.json_files/
+{"object_type": "report_status", "percent" : 39}
+Info: Generating hard_block partition "hard_block:auto_generated_inst"
+Info: Optimize away 19 nodes that do not fanout to OUTPUT or BIDIR pins
+Info: Implemented 5611 device resources after synthesis - the final resource count might be different
+Info: Generated JSON formatted report files in C:/_Development/UltranetReceiver/FPGA/dse/dse1/dse1_base/db/UltranetReceiver.map.json_files/
+Info: Generated JSON formatted report files in C:/_Development/UltranetReceiver/FPGA/dse/dse1/dse1_base/db/UltranetReceiver.flow.json_files/
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 98 warnings
+{"object_type": "report_status", "percent" : 40}
+{"object_type": "refresh_report"}
+{"object_type": "report_status", "percent" : 40}
+Info: *******************************************************************
+Info: Running Quartus Prime Fitter
+Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off UltranetReceiver -c UltranetReceiver
+Info: qfit2_default_script.tcl version: #1
+Info: Project  = UltranetReceiver
+Info: Revision = UltranetReceiver
+{"object_type": "report_status", "percent" : 40}
+{"object_type": "refresh_report"}
+Info: Aggressive Performance optimization mode selected -- timing performance will be prioritized at the potential cost of increased logic area and compilation time
+Warning: Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info: Parallel compilation is enabled and will use 14 of the 14 processors detected
+Info: Selected device 10CL016YU256C8G for design "UltranetReceiver"
+Info: Low junction temperature is 0 degrees C
+Info: High junction temperature is 85 degrees C
+Info: Implemented PLL "pll_2:inst6|altpll:altpll_component|pll_2_altpll:auto_generated|pll1" as Cyclone 10 LP PLL type
+Info: Implemented PLL "pll_1:inst1|altpll:altpll_component|pll_1_altpll:auto_generated|pll1" as Cyclone 10 LP PLL type
+Info: Fitter is performing a Standard Fit compilation using maximum Fitter effort to optimize design performance
+Warning: Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
+{"object_type": "report_status", "percent" : 42}
+Info: Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
+Info: Fitter converted 4 user pins into dedicated programming pins
+{"object_type": "report_status", "percent" : 42}
+Warning: Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
+Info: Implemented PLL "pll_1:inst1|altpll:altpll_component|pll_1_altpll:auto_generated|pll1" as Cyclone 10 LP PLL type
+Info: Implemented PLL "pll_2:inst6|altpll:altpll_component|pll_2_altpll:auto_generated|pll1" as Cyclone 10 LP PLL type
+{"object_type": "report_status", "percent" : 46}
+Info: Reading SDC File: 'UltranetReceiver.sdc'
+Warning: Ignored filter at UltranetReceiver.sdc(16): inst1|altpll_component|auto_generated|pll1|clk[1] could not be matched with a pin
+Critical Warning: Ignored create_generated_clock at UltranetReceiver.sdc(16): Argument <targets> is an empty collection
+Warning: Ignored filter at UltranetReceiver.sdc(21): inst6|altpll_component|auto_generated|pll2|inclk[0] could not be matched with a pin
+Warning: Ignored filter at UltranetReceiver.sdc(21): inst6|altpll_component|auto_generated|pll2|clk[0] could not be matched with a pin
+Critical Warning: Ignored create_generated_clock at UltranetReceiver.sdc(21): Argument <targets> is an empty collection
+Warning: Ignored create_generated_clock at UltranetReceiver.sdc(21): Argument -source is an empty collection
+Info: Clock uncertainty is not calculated until you update the timing netlist.
+Info: The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Warning: PLL cross checking found inconsistent PLL clock settings:
+Info: Detected timing requirements -- optimizing circuit to achieve only the specified requirements
+Info: Found 4 clocks
+Info: Automatically promoted node iCLK~input (placed in PIN E2 (CLK0, DIFFCLK_0p))
+Info: Automatically promoted node pll_1:inst1|altpll:altpll_component|pll_1_altpll:auto_generated|wire_pll1_clk[0] (placed in counter C0 of PLL_1)
+Info: Automatically promoted node pll_1:inst1|altpll:altpll_component|pll_1_altpll:auto_generated|wire_pll1_clk[2] (placed in counter C2 of PLL_1)
+Info: Automatically promoted node pll_1:inst1|altpll:altpll_component|pll_1_altpll:auto_generated|wire_pll1_clk[3] (placed in counter C1 of PLL_1)
+Info: Automatically promoted node pll_2:inst6|altpll:altpll_component|pll_2_altpll:auto_generated|wire_pll1_clk[0] (placed in counter C0 of PLL_3)
+Info: Automatically promoted node pll_2:inst6|altpll:altpll_component|pll_2_altpll:auto_generated|wire_pll1_clk[1] (placed in counter C1 of PLL_3)
+{"object_type": "report_status", "percent" : 43}
+{"object_type": "report_status", "percent" : 46}
+Info: Starting register packing
+Extra Info: Performing register packing on registers with non-logic cell location assignments
+Extra Info: Completed register packing on registers with non-logic cell location assignments
+Extra Info: Started Fast Input/Output/OE register processing
+Extra Info: Finished Fast Input/Output/OE register processing
+Extra Info: Moving registers into I/O cells, Multiplier Blocks, and RAM blocks to improve timing and density
+Extra Info: Finished moving registers into I/O cells, Multiplier Blocks, and RAM blocks
+Info: Finished register packing
+{"object_type": "report_status", "percent" : 43}
+Warning: PLL "pll_2:inst6|altpll:altpll_component|pll_2_altpll:auto_generated|pll1" input clock inclk[0] is not fully compensated and may have reduced jitter performance because it is fed by a non-dedicated input
+Info: Starting physical synthesis optimizations for speed
+{"object_type": "report_status", "percent" : 46}
+Info: Physical synthesis optimizations for speed complete: elapsed time is 00:00:01
+{"object_type": "report_status", "percent" : 43}
+Warning: Ignored locations or region assignments to the following nodes
+Info: Fitter preparation operations ending: elapsed time is 00:00:03
+Info: Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
+{"object_type": "report_status", "percent" : 44}
+{"object_type": "report_status", "percent" : 46}
+Info: Fitter placement preparation operations beginning
+{"object_type": "report_status", "percent" : 44}
+{"object_type": "report_status", "percent" : 44}
+{"object_type": "report_status", "percent" : 45}
+{"object_type": "report_status", "percent" : 46}
+Info: Fitter placement preparation operations ending: elapsed time is 00:00:00
+Info: Fitter placement operations beginning
+{"object_type": "report_status", "percent" : 46}
+{"object_type": "report_status", "percent" : 46}
+{"object_type": "report_status", "percent" : 46}
+{"object_type": "report_status", "percent" : 47}
+{"object_type": "report_status", "percent" : 47}
+{"object_type": "report_status", "percent" : 47}
+{"object_type": "report_status", "percent" : 47}
+{"object_type": "report_status", "percent" : 48}
+{"object_type": "report_status", "percent" : 48}
+{"object_type": "report_status", "percent" : 48}
+{"object_type": "report_status", "percent" : 48}
+{"object_type": "report_status", "percent" : 48}
+{"object_type": "report_status", "percent" : 49}
+{"object_type": "report_status", "percent" : 49}
+{"object_type": "report_status", "percent" : 50}
+{"object_type": "report_status", "percent" : 50}
+{"object_type": "report_status", "percent" : 50}
+{"object_type": "report_status", "percent" : 51}
+{"object_type": "report_status", "percent" : 52}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 54}
+{"object_type": "report_status", "percent" : 50}
+{"object_type": "report_status", "percent" : 51}
+{"object_type": "report_status", "percent" : 51}
+{"object_type": "report_status", "percent" : 52}
+{"object_type": "report_status", "percent" : 52}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 54}
+{"object_type": "report_status", "percent" : 54}
+Info: Fitter placement was successful
+Info: Fitter placement operations ending: elapsed time is 00:00:09
+{"object_type": "report_status", "percent" : 46}
+Info: Fitter routing operations beginning
+{"object_type": "report_status", "percent" : 54}
+Info: Router estimated average interconnect usage is 13% of the available device resources
+{"object_type": "report_status", "percent" : 54}
+{"object_type": "report_status", "percent" : 55}
+{"object_type": "report_status", "percent" : 55}
+{"object_type": "report_status", "percent" : 55}
+{"object_type": "report_status", "percent" : 55}
+{"object_type": "report_status", "percent" : 55}
+{"object_type": "report_status", "percent" : 56}
+{"object_type": "report_status", "percent" : 56}
+{"object_type": "report_status", "percent" : 56}
+Info: Fitter routing operations ending: elapsed time is 00:00:13
+Info: Total time spent on timing analysis during the Fitter is 2.27 seconds.
+{"object_type": "report_status", "percent" : 56}
+Info: Started post-fitting delay annotation
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 59}
+{"object_type": "report_status", "percent" : 59}
+{"object_type": "report_status", "percent" : 59}
+{"object_type": "report_status", "percent" : 59}
+{"object_type": "report_status", "percent" : 59}
+Info: Delay annotation completed successfully
+Info: Started post-fitting delay annotation
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 59}
+{"object_type": "report_status", "percent" : 59}
+{"object_type": "report_status", "percent" : 59}
+{"object_type": "report_status", "percent" : 59}
+{"object_type": "report_status", "percent" : 59}
+Info: Delay annotation completed successfully
+{"object_type": "report_status", "percent" : 57}
+{"object_type": "report_status", "percent" : 59}
+Info: Fitter post-fit operations ending: elapsed time is 00:00:02
+Warning: Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
+Warning: 4 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing Cyclone 10 LP Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
+Info: Generated suppressed messages file C:/_Development/UltranetReceiver/FPGA/dse/dse1/dse1_base/output_files/UltranetReceiver.fit.smsg
+Info: Generated JSON formatted report files in C:/_Development/UltranetReceiver/FPGA/dse/dse1/dse1_base/db/UltranetReceiver.fit.json_files/
+Info: Generated JSON formatted report files in C:/_Development/UltranetReceiver/FPGA/dse/dse1/dse1_base/db/UltranetReceiver.flow.json_files/
+Info: Quartus Prime Fitter was successful. 0 errors, 17 warnings
+{"object_type": "report_status", "percent" : 60}
+{"object_type": "refresh_report"}
+{"object_type": "report_status", "percent" : 60}
+{"object_type": "report_status", "percent" : 60}
+Info: *******************************************************************
+Info: Running Quartus Prime Assembler
+Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off UltranetReceiver -c UltranetReceiver
+{"object_type": "refresh_report"}
+Warning: Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+{"object_type": "report_status", "percent" : 61}
+{"object_type": "report_status", "percent" : 62}
+{"object_type": "report_status", "percent" : 66}
+{"object_type": "report_status", "percent" : 68}
+{"object_type": "report_status", "percent" : 70}
+{"object_type": "report_status", "percent" : 74}
+{"object_type": "report_status", "percent" : 76}
+Info: Writing out detailed assembly data for power analysis
+Info: Assembler is generating device programming files
+{"object_type": "report_status", "percent" : 78}
+Info: Created JAM or JBC file for the specified chain: 
+Device 1 (10CL016YU256; C:/_Development/UltranetReceiver/FPGA/dse/dse1/dse1_base/output_files/UltranetReceiver.sof)
+Info: Created JAM or JBC file for the specified chain: 
+Device 1 (10CL016YU256; C:/_Development/UltranetReceiver/FPGA/dse/dse1/dse1_base/output_files/UltranetReceiver.sof)
+Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
+{"object_type": "report_status", "percent" : 80}
+{"object_type": "refresh_report"}
+Info: Skipped module Power Analyzer due to the assignment FLOW_ENABLE_POWER_ANALYZER
+{"object_type": "report_status", "percent" : 80}
+Info: *******************************************************************
+Info: Running Quartus Prime Timing Analyzer
+Info: Command: quartus_sta UltranetReceiver -c UltranetReceiver
+Info: qsta_default_script.tcl version: #1
+{"object_type": "report_status", "percent" : 80}
+Warning: Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info: Parallel compilation is enabled and will use 14 of the 14 processors detected
+Info: Low junction temperature is 0 degrees C
+Info: High junction temperature is 85 degrees C
+{"object_type": "report_status", "percent" : 84}
+Info: Reading SDC File: 'UltranetReceiver.sdc'
+Warning: Ignored filter at UltranetReceiver.sdc(16): inst1|altpll_component|auto_generated|pll1|clk[1] could not be matched with a pin
+Critical Warning: Ignored create_generated_clock at UltranetReceiver.sdc(16): Argument <targets> is an empty collection
+Warning: Ignored filter at UltranetReceiver.sdc(21): inst6|altpll_component|auto_generated|pll2|inclk[0] could not be matched with a pin
+Warning: Ignored filter at UltranetReceiver.sdc(21): inst6|altpll_component|auto_generated|pll2|clk[0] could not be matched with a pin
+Critical Warning: Ignored create_generated_clock at UltranetReceiver.sdc(21): Argument <targets> is an empty collection
+Warning: Ignored create_generated_clock at UltranetReceiver.sdc(21): Argument -source is an empty collection
+Info: Clock uncertainty is not calculated until you update the timing netlist.
+Info: Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Warning: PLL cross checking found inconsistent PLL clock settings:
+Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow 1200mV 85C Model
+Critical Warning: Timing requirements not met
+Info: Worst-case setup slack is -40.937
+Info: Worst-case hold slack is 0.432
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: Worst-case minimum pulse width slack is -0.001
+Info: Report Metastability: Found 3 synchronizer chains.
+Info: Analyzing Slow 1200mV 0C Model
+Info: Started post-fitting delay annotation
+{"object_type": "report_status", "percent" : 90}
+{"object_type": "report_status", "percent" : 90}
+{"object_type": "report_status", "percent" : 90}
+{"object_type": "report_status", "percent" : 91}
+{"object_type": "report_status", "percent" : 91}
+{"object_type": "report_status", "percent" : 91}
+{"object_type": "report_status", "percent" : 91}
+{"object_type": "report_status", "percent" : 91}
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 93}
+{"object_type": "report_status", "percent" : 93}
+{"object_type": "report_status", "percent" : 93}
+{"object_type": "report_status", "percent" : 93}
+{"object_type": "report_status", "percent" : 93}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 95}
+{"object_type": "report_status", "percent" : 95}
+{"object_type": "report_status", "percent" : 95}
+{"object_type": "report_status", "percent" : 95}
+{"object_type": "report_status", "percent" : 95}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 97}
+{"object_type": "report_status", "percent" : 97}
+{"object_type": "report_status", "percent" : 97}
+{"object_type": "report_status", "percent" : 97}
+{"object_type": "report_status", "percent" : 97}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+Info: Delay annotation completed successfully
+Info: Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Warning: PLL cross checking found inconsistent PLL clock settings:
+Critical Warning: Timing requirements not met
+Info: Worst-case setup slack is -37.287
+Info: Worst-case hold slack is 0.382
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: Worst-case minimum pulse width slack is -0.001
+Info: Report Metastability: Found 3 synchronizer chains.
+Info: Analyzing Fast 1200mV 0C Model
+Info: Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Warning: PLL cross checking found inconsistent PLL clock settings:
+Critical Warning: Timing requirements not met
+Info: Worst-case setup slack is -17.444
+Info: Worst-case hold slack is 0.178
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: Worst-case minimum pulse width slack is 2.254
+Info: Report Metastability: Found 3 synchronizer chains.
+Info: Design is not fully constrained for setup requirements
+Info: Design is not fully constrained for hold requirements
+Info: Generated JSON formatted report files in C:/_Development/UltranetReceiver/FPGA/dse/dse1/dse1_base/db/UltranetReceiver.sta.json_files/
+Info: Generated JSON formatted report files in C:/_Development/UltranetReceiver/FPGA/dse/dse1/dse1_base/db/UltranetReceiver.flow.json_files/
+Info: Quartus Prime Timing Analyzer was successful. 0 errors, 19 warnings
+Info: Generated JSON formatted report files in C:/_Development/UltranetReceiver/FPGA/dse/dse1/dse1_base/db/UltranetReceiver.sta.json_files/
+{"object_type": "report_status", "percent" : 100}
+{"object_type": "refresh_report"}
+Info: Quartus Prime Full Compilation was successful. 0 errors, 135 warnings
+Info: Evaluation of Tcl script c:/intelfpga_lite/23.1std/quartus/common/tcl/internal/qsh_flow.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 135 warnings

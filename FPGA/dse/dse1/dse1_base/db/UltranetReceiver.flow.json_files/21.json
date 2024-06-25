@@ -1,0 +1,27 @@
+{
+	"title" : "Timing Analyzer||Fast 1200mV 0C Model||Fast 1200mV 0C Model Setup Summary",
+	"data" : {
+		"data" : [
+			{
+				"0" : "inst1|altpll_component|auto_generated|pll1|clk[2]",
+				"1" : "-17.444",
+				"2" : "-1110.027"
+			},
+			{
+				"0" : "inst1|altpll_component|auto_generated|pll1|clk[0]",
+				"1" : "2.712",
+				"2" : "0.000"
+			},
+			{
+				"0" : "iCLK",
+				"1" : "18.634",
+				"2" : "0.000"
+			},
+			{
+				"0" : "inst1|altpll_component|auto_generated|pll1|clk[3]",
+				"1" : "247.497",
+				"2" : "0.000"
+			}
+		]
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "bMKR_D3",
+					"strict" : false
+				},
+				{
+					"name" : "bMKR_D13",
+					"strict" : false
+				},
+				{
+					"name" : "bMKR_D4",
+					"strict" : false
+				},
+				{
+					"name" : "bMKR_D5",
+					"strict" : false
+				},
+				{
+					"name" : "bMKR_D6",
+					"strict" : false
+				},
+				{
+					"name" : "bMKR_D21",
+					"strict" : false
+				},
+				{
+					"name" : "iCLK",
+					"strict" : false
+				},
+				{
+					"name" : "bMKR_D14",
+					"strict" : false
+				},
+				{
+					"name" : "bMKR_D1",
+					"strict" : false
+				},
+				{
+					"name" : "bMKR_D0",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

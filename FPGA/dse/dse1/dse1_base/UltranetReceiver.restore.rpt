@@ -1,0 +1,105 @@
+Restore Archived Project report for UltranetReceiver
+Tue Jun 18 11:30:26 2024
+Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2024  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Tue Jun 18 11:30:26 2024 ;
+; Revision Name                   ; UltranetReceiver                      ;
+; Top-level Entity Name           ; UltranetReceiver                      ;
+; Family                          ; Cyclone 10 LP                         ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/_Development/UltranetReceiver/FPGA/dse/dse1/dse1_base/UltranetReceiver.qar' into the 'dse/dse1/dse1_base' directory
+Info: Generated report 'UltranetReceiver.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/23.1std/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4830 megabytes
+    Info: Processing ended: Tue Jun 18 11:30:26 2024
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++--------------------------+
+; Files Restored           ;
++--------------------------+
+; File Name                ;
++--------------------------+
+; qar_info.json            ;
+; RS232_Decoder.vhdl       ;
+; RS232_Interface.vhd      ;
+; UltranetReceiver.bdf     ;
+; UltranetReceiver.dse     ;
+; UltranetReceiver.out.sdc ;
+; UltranetReceiver.qpf     ;
+; UltranetReceiver.qsf     ;
+; UltranetReceiver.sdc     ;
+; aes3rx.vhd               ;
+; audio_sum.vhd            ;
+; dac_pdm.vhd              ;
+; division.vhd             ;
+; i2s_bclk.vhd             ;
+; i2s_lrclk.vhd            ;
+; i2s_mclk.vhd             ;
+; i2s_tx.vhd               ;
+; i2s_ultranet_rx.vhd      ;
+; multiplication.vhd       ;
+; pll_1.vhd                ;
+; pll_2.bsf                ;
+; pll_2.cmp                ;
+; pll_2.ppf                ;
+; pll_2.qip                ;
+; pll_2.vhd                ;
+; spdif_transmitter.vhd    ;
+; uart_tx_clk.vhd          ;
+; ultranet_demux.vhd       ;
+; volume_ctrl.vhd          ;
+; volume_ctrl_stereo.vhd   ;
+; assignment_defaults.qdf  ;
++--------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

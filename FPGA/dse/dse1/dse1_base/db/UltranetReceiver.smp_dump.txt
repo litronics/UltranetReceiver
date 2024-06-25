@@ -1,0 +1,24 @@
+
+State Machine - |UltranetReceiver|aes3rx:inst|lock_state
+Name lock_state.locked lock_state.confirming lock_state.locking 
+lock_state.locking 0 0 0 
+lock_state.confirming 0 1 1 
+lock_state.locked 1 0 1 
+
+State Machine - |UltranetReceiver|RS232_Interface:inst2|tra_state
+Name tra_state.stop_bit tra_state.data_byte tra_state.start_bit 
+tra_state.start_bit 0 0 0 
+tra_state.data_byte 0 1 1 
+tra_state.stop_bit 1 0 1 
+
+State Machine - |UltranetReceiver|RS232_Interface:inst2|rec_state
+Name rec_state.stop_bit rec_state.data_byte rec_state.start_bit 
+rec_state.start_bit 0 0 0 
+rec_state.data_byte 0 1 1 
+rec_state.stop_bit 1 0 1 
+
+State Machine - |UltranetReceiver|aes3rx:inst7|lock_state
+Name lock_state.locked lock_state.confirming lock_state.locking 
+lock_state.locking 0 0 0 
+lock_state.confirming 0 1 1 
+lock_state.locked 1 0 1 

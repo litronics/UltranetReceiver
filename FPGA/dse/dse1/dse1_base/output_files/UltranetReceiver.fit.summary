@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Jun 18 11:31:18 2024
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : UltranetReceiver
+Top-level Entity Name : UltranetReceiver
+Family : Cyclone 10 LP
+Device : 10CL016YU256C8G
+Timing Models : Final
+Total logic elements : 4,725 / 15,408 ( 31 % )
+    Total combinational functions : 4,540 / 15,408 ( 29 % )
+    Dedicated logic registers : 1,205 / 15,408 ( 8 % )
+Total registers : 1205
+Total pins : 17 / 163 ( 10 % )
+Total virtual pins : 0
+Total memory bits : 0 / 516,096 ( 0 % )
+Embedded Multiplier 9-bit elements : 112 / 112 ( 100 % )
+Total PLLs : 2 / 4 ( 50 % )

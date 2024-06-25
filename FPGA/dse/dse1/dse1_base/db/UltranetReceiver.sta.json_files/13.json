@@ -1,0 +1,27 @@
+{
+	"title" : "Timing Analyzer||Slow 1200mV 85C Model||Slow 1200mV 85C Model Hold Summary",
+	"data" : {
+		"data" : [
+			{
+				"0" : "inst1|altpll_component|auto_generated|pll1|clk[0]",
+				"1" : "0.432",
+				"2" : "0.000"
+			},
+			{
+				"0" : "inst1|altpll_component|auto_generated|pll1|clk[3]",
+				"1" : "0.454",
+				"2" : "0.000"
+			},
+			{
+				"0" : "iCLK",
+				"1" : "0.455",
+				"2" : "0.000"
+			},
+			{
+				"0" : "inst1|altpll_component|auto_generated|pll1|clk[2]",
+				"1" : "0.455",
+				"2" : "0.000"
+			}
+		]
+	}
+}

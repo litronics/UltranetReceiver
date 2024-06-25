@@ -1,0 +1,87 @@
+{
+	"title" : "Timing Analyzer||Multicorner Timing Analysis Summary",
+	"data" : {
+		"data" : [
+			{
+				"0" : "Worst-case Slack",
+				"1" : "-40.937",
+				"2" : "0.178",
+				"3" : "N/A",
+				"4" : "N/A",
+				"5" : "-0.001"
+			},
+			{
+				"0" : " iCLK",
+				"1" : "15.898",
+				"2" : "0.187",
+				"3" : "N/A",
+				"4" : "N/A",
+				"5" : "9.667"
+			},
+			{
+				"0" : " inst1|altpll_component|auto_generated|pll1|clk[0]",
+				"1" : "0.169",
+				"2" : "0.178",
+				"3" : "N/A",
+				"4" : "N/A",
+				"5" : "-0.001"
+			},
+			{
+				"0" : " inst1|altpll_component|auto_generated|pll1|clk[2]",
+				"1" : "-40.937",
+				"2" : "0.188",
+				"3" : "N/A",
+				"4" : "N/A",
+				"5" : "15.264"
+			},
+			{
+				"0" : " inst1|altpll_component|auto_generated|pll1|clk[3]",
+				"1" : "244.327",
+				"2" : "0.187",
+				"3" : "N/A",
+				"4" : "N/A",
+				"5" : "124.648"
+			},
+			{
+				"0" : "Design-wide TNS",
+				"1" : "-2685.395",
+				"2" : "0.0",
+				"3" : "0.0",
+				"4" : "0.0",
+				"5" : "-0.732"
+			},
+			{
+				"0" : " iCLK",
+				"1" : "0.000",
+				"2" : "0.000",
+				"3" : "N/A",
+				"4" : "N/A",
+				"5" : "0.000"
+			},
+			{
+				"0" : " inst1|altpll_component|auto_generated|pll1|clk[0]",
+				"1" : "0.000",
+				"2" : "0.000",
+				"3" : "N/A",
+				"4" : "N/A",
+				"5" : "-0.732"
+			},
+			{
+				"0" : " inst1|altpll_component|auto_generated|pll1|clk[2]",
+				"1" : "-2685.395",
+				"2" : "0.000",
+				"3" : "N/A",
+				"4" : "N/A",
+				"5" : "0.000"
+			},
+			{
+				"0" : " inst1|altpll_component|auto_generated|pll1|clk[3]",
+				"1" : "0.000",
+				"2" : "0.000",
+				"3" : "N/A",
+				"4" : "N/A",
+				"5" : "0.000"
+			}
+		]
+	}
+}

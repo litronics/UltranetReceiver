@@ -1,0 +1,83 @@
+{
+	"title" : "Timing Analyzer||Clocks",
+	"data" : {
+		"data" : [
+			{
+				"0" : "iCLK",
+				"1" : "Base",
+				"2" : "20.833",
+				"3" : "48.0 MHz",
+				"4" : "0.000",
+				"5" : "10.416",
+				"6" : "",
+				"7" : "",
+				"8" : "",
+				"9" : "",
+				"10" : "",
+				"11" : "",
+				"12" : "",
+				"13" : "",
+				"14" : "",
+				"15" : "",
+				"16" : "{ iCLK }"
+			},
+			{
+				"0" : "inst1|altpll_component|auto_generated|pll1|clk[0]",
+				"1" : "Generated",
+				"2" : "4.999",
+				"3" : "200.04 MHz",
+				"4" : "0.000",
+				"5" : "2.499",
+				"6" : "50.00",
+				"7" : "6",
+				"8" : "25",
+				"9" : "",
+				"10" : "",
+				"11" : "",
+				"12" : "",
+				"13" : "false",
+				"14" : "iCLK",
+				"15" : "inst1|altpll_component|auto_generated|pll1|inclk[0]",
+				"16" : "{ inst1|altpll_component|auto_generated|pll1|clk[0] }"
+			},
+			{
+				"0" : "inst1|altpll_component|auto_generated|pll1|clk[2]",
+				"1" : "Generated",
+				"2" : "31.249",
+				"3" : "32.0 MHz",
+				"4" : "0.000",
+				"5" : "15.624",
+				"6" : "50.00",
+				"7" : "3",
+				"8" : "2",
+				"9" : "",
+				"10" : "",
+				"11" : "",
+				"12" : "",
+				"13" : "false",
+				"14" : "iCLK",
+				"15" : "inst1|altpll_component|auto_generated|pll1|inclk[0]",
+				"16" : "{ inst1|altpll_component|auto_generated|pll1|clk[2] }"
+			},
+			{
+				"0" : "inst1|altpll_component|auto_generated|pll1|clk[3]",
+				"1" : "Generated",
+				"2" : "249.996",
+				"3" : "4.0 MHz",
+				"4" : "0.000",
+				"5" : "124.998",
+				"6" : "50.00",
+				"7" : "12",
+				"8" : "1",
+				"9" : "",
+				"10" : "",
+				"11" : "",
+				"12" : "",
+				"13" : "false",
+				"14" : "iCLK",
+				"15" : "inst1|altpll_component|auto_generated|pll1|inclk[0]",
+				"16" : "{ inst1|altpll_component|auto_generated|pll1|clk[3] }"
+			}
+		]
+	}
+}

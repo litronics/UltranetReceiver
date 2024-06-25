@@ -3,7 +3,7 @@ const char compile_date[] = __DATE__ " " __TIME__;
 
 // some compiler-switches for optional functions
 #define ShowDebugOutput 0 // some additional string-output on serial (USB)
-#define UseEthernet 0
+#define UseEthernet 1
 #define UseEEPROM 0 // enable, if you want to use an EEPROM with integrated MAC-Address
 #define UseMQTT 0
 #define EthernetChipSelectPin 7 // enter correct CS-pin for connected ethernet-hardware

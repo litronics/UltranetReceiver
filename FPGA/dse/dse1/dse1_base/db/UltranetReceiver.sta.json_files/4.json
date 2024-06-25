@@ -1,0 +1,273 @@
+{
+	"title" : "Flow Non-Default Global Settings",
+	"data" : {
+		"data" : [
+			{
+				"0" : "CLOUD_NOTIFY_GROUP_ID",
+				"1" : "dse1",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "COMPILER_SIGNATURE_ID",
+				"1" : "43983401491821.171870302828224",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "DSE_SEND_REPORT_PANEL",
+				"1" : "^Timing Analyzer/(Slow|Fast)\\s.*Model/(Slow|Fast)\\s.*Model\\sFmax\\sSummary$",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "DSE_SEND_REPORT_PANEL",
+				"1" : "Flow Elapsed Time",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "DSE_SEND_REPORT_PANEL",
+				"1" : "^Timing Analyzer/Clocks$",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "DSE_SEND_REPORT_PANEL",
+				"1" : "Fitter/(Resource Section|Place Stage)/Fitter Resource Usage Summary",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "DSE_SEND_REPORT_PANEL",
+				"1" : "^Timing Analyzer/(Slow|Fast)\\s.*Model/(Slow|Fast)\\s.*Model\\s(Setup|Hold|Recovery|Removal)\\sSummary$",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "DSE_SERVER_SEND_REPORTS",
+				"1" : "On",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "DSE_SERVER_URL",
+				"1" : "http://localhost:62256",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "DSE_WORKER_ID",
+				"1" : "0",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "ENABLE_SIGNALTAP",
+				"1" : "Off",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "FITTER_EFFORT",
+				"1" : "Standard Fit",
+				"2" : "Auto Fit",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "IGNORE_PARTITIONS",
+				"1" : "On",
+				"2" : "Off",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "MAX_CORE_JUNCTION_TEMP",
+				"1" : "85",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "MIN_CORE_JUNCTION_TEMP",
+				"1" : "0",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "MISC_FILE",
+				"1" : "pll_2.bsf",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "MISC_FILE",
+				"1" : "pll_2.cmp",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "MISC_FILE",
+				"1" : "pll_2.ppf",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "MUX_RESTRUCTURE",
+				"1" : "Off",
+				"2" : "Auto",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "NOMINAL_CORE_SUPPLY_VOLTAGE",
+				"1" : "1.2V",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "OPTIMIZATION_MODE",
+				"1" : "Aggressive Performance",
+				"2" : "Balanced",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "OUTPUT_IO_TIMING_FAR_END_VMEAS",
+				"1" : "Half Signal Swing",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "OUTPUT_IO_TIMING_FAR_END_VMEAS",
+				"1" : "Half Signal Swing",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "OUTPUT_IO_TIMING_NEAR_END_VMEAS",
+				"1" : "Half Vccio",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "OUTPUT_IO_TIMING_NEAR_END_VMEAS",
+				"1" : "Half Vccio",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "PARTITION_COLOR",
+				"1" : "-- (Not supported for targeted family)",
+				"2" : "--",
+				"3" : "--",
+				"4" : "Top"
+			},
+			{
+				"0" : "PARTITION_FITTER_PRESERVATION_LEVEL",
+				"1" : "-- (Not supported for targeted family)",
+				"2" : "--",
+				"3" : "--",
+				"4" : "Top"
+			},
+			{
+				"0" : "PARTITION_NETLIST_TYPE",
+				"1" : "-- (Not supported for targeted family)",
+				"2" : "--",
+				"3" : "--",
+				"4" : "Top"
+			},
+			{
+				"0" : "PHYSICAL_SYNTHESIS_COMBO_LOGIC",
+				"1" : "On",
+				"2" : "Off",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "PHYSICAL_SYNTHESIS_REGISTER_RETIMING",
+				"1" : "On",
+				"2" : "Off",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "PLACEMENT_EFFORT_MULTIPLIER",
+				"1" : "4.0",
+				"2" : "1.0",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "POWER_BOARD_THERMAL_MODEL",
+				"1" : "None (CONSERVATIVE)",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "POWER_DEFAULT_INPUT_IO_TOGGLE_RATE",
+				"1" : "100%",
+				"2" : "12.5%",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "POWER_PRESET_COOLING_SOLUTION",
+				"1" : "23 MM HEAT SINK WITH 200 LFPM AIRFLOW",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "PROJECT_OUTPUT_DIRECTORY",
+				"1" : "output_files",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "ROUTER_TIMING_OPTIMIZATION_LEVEL",
+				"1" : "MAXIMUM",
+				"2" : "Normal",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "VHDL_INPUT_VERSION",
+				"1" : "VHDL_2008",
+				"2" : "VHDL_1993",
+				"3" : "--",
+				"4" : "--"
+			},
+			{
+				"0" : "VHDL_SHOW_LMF_MAPPING_MESSAGES",
+				"1" : "Off",
+				"2" : "--",
+				"3" : "--",
+				"4" : "--"
+			}
+		]
+	}
+}

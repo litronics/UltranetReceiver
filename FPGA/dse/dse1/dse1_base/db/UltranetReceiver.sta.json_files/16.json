@@ -1,0 +1,31 @@
+{
+	"title" : "Timing Analyzer||Slow 1200mV 0C Model||Slow 1200mV 0C Model Fmax Summary",
+	"data" : {
+		"data" : [
+			{
+				"0" : "118.98 MHz",
+				"1" : "118.98 MHz",
+				"2" : "inst1|altpll_component|auto_generated|pll1|clk[2]",
+				"3" : ""
+			},
+			{
+				"0" : "184.6 MHz",
+				"1" : "184.6 MHz",
+				"2" : "inst1|altpll_component|auto_generated|pll1|clk[3]",
+				"3" : ""
+			},
+			{
+				"0" : "216.92 MHz",
+				"1" : "200.0 MHz",
+				"2" : "inst1|altpll_component|auto_generated|pll1|clk[0]",
+				"3" : "limit due to minimum period restriction (tmin)"
+			},
+			{
+				"0" : "223.56 MHz",
+				"1" : "223.56 MHz",
+				"2" : "iCLK",
+				"3" : ""
+			}
+		]
+	}
+}

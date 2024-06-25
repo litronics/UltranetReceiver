@@ -1,0 +1,7 @@
+Multicorner Timing Analysis: Summary
+Exploration Point,Setup,Hold,Recovery,Removal,Clock
+dse1_base,15.898,0.187,No Data,No Data,iCLK
+dse1_base,0.169,0.178,No Data,No Data,inst1|altpll_component|auto_generated|pll1|clk[0]
+dse1_base,-40.937,0.188,No Data,No Data,inst1|altpll_component|auto_generated|pll1|clk[2]
+dse1_base,244.327,0.187,No Data,No Data,inst1|altpll_component|auto_generated|pll1|clk[3]
+dse1_base,-40.937,0.178,No Data,No Data,Worst-Case Slack

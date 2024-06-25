@@ -17,6 +17,7 @@ Documentation/
 PCB/History/
 PCB/__Previews/
 PCB/Project Logs for FPGA_AudioMischpult/
+.vscode/
 
 # Build results
 [Dd]ebug/
